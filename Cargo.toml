@@ -1,0 +1,8 @@
+[package]
+name = "blendy"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.37", features = ["cargo"] }
+image = "0.25.6"
