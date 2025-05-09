@@ -1,5 +1,5 @@
-use std::path::PathBuf;
 use image;
+use std::path::PathBuf;
 
 pub fn crop_image(infile: &PathBuf, outfile: &PathBuf, params: Vec<u32>) {
     let mut img = image::open(infile).expect("failed to open image");
